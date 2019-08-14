@@ -2,6 +2,7 @@
 name: redisFlex
 apis: 
   - name: redis
+    entity: ${auto:ip}
     commands: 
       - dial: ${auto:ip}:${auto:port}
         run: "info\r\n"
