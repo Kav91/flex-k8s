@@ -1,5 +1,7 @@
 ---
 name: redisFlex
+custom_attributes:
+  name: nikjain
 apis: 
   - name: redis
     entity: ${auto:ip}
